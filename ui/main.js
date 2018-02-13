@@ -1,7 +1,6 @@
 var button = document.getElementById('counter');
-var count = 0;
 button.onclick = function () {
- /* 
+    
   var request = new XMLHttpRequest();
   
   request.onreadystatechange = function () {
@@ -13,10 +12,7 @@ button.onclick = function () {
             span.innerHTML = counter.toString();
         }
     }  
-  };*/
-  
-  var span = document.getElementById('count');
-  count = count + 1;
-  span.innerHTML = count.toString();
-  
+  };
+ request.open('GET', 'http://hegdeniranjan144.imad.hasura-app.io/counter', true);
+ request.send(null);
 };
