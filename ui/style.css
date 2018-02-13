@@ -4,6 +4,13 @@ body {
     margin-top: 75px;
 }
 
+
+.container {
+
+    max-width: 800px;
+    
+}
+
 .center {
     text-align: center;
 }
