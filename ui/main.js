@@ -12,6 +12,4 @@ button.onclick = function () {
         }
     }  
   };
-  
-    
 };
