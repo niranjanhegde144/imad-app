@@ -50,6 +50,7 @@ var articles = {
     }
 }
 
+var counter = 0;
 
 function createTemplate(data) {
  
@@ -111,6 +112,11 @@ app.get('/ui/madi.png', function (req, res) {
 
 app.get('/ui/main.js', function(req, res) {
    res.sendFile(path.join(__dirname, 'ui', 'main.js')); 
+});
+
+app.get("/ui/counter", function(req, res) {
+   counter += 1;
+   res.send(counter.toString()); 
 });
 
 
