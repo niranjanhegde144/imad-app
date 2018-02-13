@@ -115,7 +115,7 @@ app.get('/ui/main.js', function(req, res) {
 });
 
 app.get("/counter", function(req, res) {
-   counter += 1;
+   counter = counter + 1;
    res.send(counter.toString()); 
 });
 
