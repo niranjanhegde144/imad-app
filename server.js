@@ -57,7 +57,7 @@ function createTemplate(data) {
             </div>
         </body>
     </html>
-    `//end of string
+    `;//end of string
     return htmlContent;
 } 
 
