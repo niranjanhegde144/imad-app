@@ -21,9 +21,9 @@ var articles = {
       `
     },
     'article-two': {
-      title: "article-one", 
-      heading : 'Article-one',
-      date: '13 feb 2018',
+      title: "article-two", 
+      heading : 'Article-two',
+      date: '14 feb 2018',
       content: `
       <p>Paragraphs begin for article one from here...</p>
       <p>Paragraphs begin for article one from here...</p>
@@ -35,9 +35,9 @@ var articles = {
 `
     },
     'article-three': {
-      title: "article-one", 
-      heading : 'Article-one',
-      date: '13 feb 2018',
+      title: "article-three", 
+      heading : 'Article-three',
+      date: '15 feb 2018',
       content: `
       <p>Paragraphs begin for article one from here...</p>
       <p>Paragraphs begin for article one from here...</p>
