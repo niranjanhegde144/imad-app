@@ -8,7 +8,7 @@ button.onclick = function () {
         if (request.status === 200) {
             alert("Button clicked");
             var counter = request.responseText;
-            var span = document.getElementById("count");
+            var span = document.getElementById('count');
             span.innerHTML = counter.toString();
         }
     }  
