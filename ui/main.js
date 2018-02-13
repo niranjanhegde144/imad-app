@@ -1,2 +1,4 @@
 console.log('Loaded!');
-alert("Loading");
+alert("loading");
+var mainText = document.getElementById('main-text');
+mainText.innerHtml("Main text changed");
