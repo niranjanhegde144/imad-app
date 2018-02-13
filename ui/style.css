@@ -7,6 +7,9 @@ body {
 
 .container {
     margin: 0 auto;
+    font-family: sans-serif;
+    color: black;
+    background: white;
     max-width: 800px;
     
 }
